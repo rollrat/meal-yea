@@ -1,0 +1,193 @@
+th,
+td {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+}
+
+.header {
+  display: block;
+  position: relative;
+  background: gold;
+  height: 100px;
+}
+
+.article-body {
+  display: block;
+  /* position: relative; */
+}
+
+.article-left {
+  /* float: left; */
+  /* width: 200px; */
+  text-align: center;
+}
+
+.article-right {
+  float: none;
+}
+
+/*.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}*/
+
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(1) {
+  background-color: #dbd4b0;
+}
+
+tr:nth-child(2n + 0) {
+  background-color: #f7f3bf;
+}
+
+/* for ie */
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center-horizontal {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 50%; */
+  width: 820px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  /* margin: 10px; */
+  background-color: #333333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+i {
+  right: 5px;
+}
+
+.sidebar-item {
+  /* margin: 8px; */
+  padding: 8px;
+  display: block;
+}
+
+.sidebar ul li a {
+  color: goldenrod;
+}
+
+.sidebar ul li:hover {
+  background: #111111;
+}
+
+.sidebar ul li:hover a {
+  color: yellowgreen;
+}
+
+.res-hoverable:hover {
+  background: rgb(53, 53, 53);
+}
+
+.bottom-bar {
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: -100px;
+  /* left: 100px; */
+}
+
+button {
+  border: 1px solid gold;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding: 5px;
+  outline: none;
+  width: 104px;
+  height: 40px;
+  background-color: gold;
+  border-radius: 20px;
+  box-shadow: 1px 1px 0 rgb(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: 1px 1px 0 rgb(0, 0, 0, 0.5);
+  position: relative;
+  top: 2px;
+}
+
+.res-sum {
+  padding: 10px;
+  font-size: 8px;
+}
+
+.user-info {
+  /* margin: 10px; */
+  background-color: #696969;
+  color: rgb(255, 228, 161);
+}
+
+/* https://www.codingfactory.net/11458 */
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
